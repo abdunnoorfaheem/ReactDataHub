@@ -34,7 +34,7 @@ return(
 <img src={item.thumbnail} alt="" />
     <p style={{ textAlign:"center",fontWeight:"900",fontSize:"18px", }}>{item.title}</p>
     
-   <div style={{ display:"flex",justifyContent:"space-between" }}> <button style={{ padding:"10px 25px",border:"none",background:"#00d2ff ",borderRadius:"7px",color:"white" }}>Buy</button>
+   <div style={{ display:"flex",justifyContent:"space-between",margin:"10px" }}> <button style={{ padding:"10px 25px",border:"none",background:"#00d2ff ",borderRadius:"7px",color:"white" }}>Buy</button>
    <p style={{ textAlign:"right",fontWeight:"800" }}>${item.price}</p></div>
 </div>
 
