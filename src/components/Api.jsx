@@ -23,7 +23,7 @@ fetch("https://dummyjson.com/products")
   return (
     <section>
         <h1 style={{ textAlign:"center",fontSize:"50px" }}>Data Show</h1>
-        <p>{}</p>
+        
 
         {/* <button >Click</button> */}
 
