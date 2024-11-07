@@ -30,7 +30,7 @@ fetch("https://dummyjson.com/products")
 
        <div className='' style={{ display:"flex",justifyContent:"center",flexWrap:"wrap",gap:"20px", }}> {apiData.map((item)=>(
           
-          <div style={{ border:"none",background:"#fffee0",padding:"15px",borderRadius:"15px",boxShadow:"4px 4px 3px 2px", }}>
+          <div style={{ border:"none",background:"#fdf5e2",padding:"15px",borderRadius:"15px",boxShadow:"4px 4px 8px 2px", }}>
               <img src={item.thumbnail} alt="" />
               <h3 style={{ textAlign:"center" }}>{item.title}</h3>
               <p style={{ textAlign:"right",fontWeight:"800" }}>${item.price}</p>
