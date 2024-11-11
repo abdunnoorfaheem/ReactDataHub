@@ -5,7 +5,7 @@ export const NewData = () => {
 
     let [apiData,setData]=useState([]);
 
-    let dataShow=axios('https://dummyjson.com/products')
+    let dataShow=axios.get('https://dummyjson.com/products')
     .then((res)=>{
 
        

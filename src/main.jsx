@@ -6,6 +6,7 @@ import { NewData } from './components/NewData.jsx'
 import { DataView } from './components/DataView.jsx'
 import { Fetch } from './components/Fetch.jsx'
 import { Api } from './components/Api.jsx'
+import { NewApi } from './components/NewApi.jsx'
 
 
 
@@ -14,11 +15,12 @@ import { Api } from './components/Api.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <NewData/>
-    <DataView/>
-    <Fetch/>
+    <NewApi/>
+    {/* <NewData/> */}
+    {/* <DataView/> */}
+    {/* <Fetch/> */}
 
-<Api/>
+{/* <Api/> */}
 
 
 
