@@ -16,13 +16,14 @@ import { NewApiTwo } from './components/NewApiTwo.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <NewApiTwo/>
-    {/* <NewApi/> */}
-    {/* <NewData/> */}
-    {/* <DataView/> */}
-    {/* <Fetch/> */}
+    
+    <NewData/>
+    <DataView/>
+    <Fetch/>
 
-{/* <Api/> */}
+<Api/>
+<NewApiTwo/>
+    <NewApi/>
 
 
 

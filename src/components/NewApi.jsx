@@ -21,13 +21,16 @@ useEffect(()=>{
     
 
 <section>
-    {newApiData.map((item)=>(
-      <div>
+  <h1>Data From Api</h1>
+  <div style={{ display:"flex",flexWrap:"wrap",gap:"15px",color:"white",justifyContent:"center" }}>
+  {newApiData.map((item)=>(
+      <div style={{ background:"#121050",padding:"10px",borderRadius:"15px",fontWeight:800 }}>
           <img src={item.thumbnail} alt="" />
           <p>{item.title}</p>
           <p>{item.price}</p>
       </div>
     ))}
+  </div>
 </section>
         
     
